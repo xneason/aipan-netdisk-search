@@ -1,22 +1,22 @@
 <script setup>
 useHead({
-    title: '爱盼 - 电视直播与 Alist 数据源聚合播放',
+    title: '搜库 - 电视直播与 Alist 数据源聚合播放',
     meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no' },
-        { name: 'keywords', content: '爱盼, 电视直播, Alist 数据源, 聚合播放, 在线电视' },
-        { hid: 'description', name: 'description', content: '爱盼提供最新的电视直播和 Alist 数据源聚合播放，轻松享受精彩内容！' },
-        { name: 'author', content: '爱盼团队' },
+        { name: 'keywords', content: '搜库, 电视直播, Alist 数据源, 聚合播放, 在线电视' },
+        { hid: 'description', name: 'description', content: '搜库提供最新的电视直播和 Alist 数据源聚合播放，轻松享受精彩内容！' },
+        { name: 'author', content: '搜库团队' },
         { name: 'robots', content: 'index, follow' },
         { name: 'format-detection', content: 'telephone=no' },
-        { property: 'og:title', content: '爱盼 - 电视直播与 Alist 数据源聚合播放' },
-        { property: 'og:description', content: '爱盼提供最新的电视直播和 Alist 数据源聚合播放，轻松享受精彩内容！' },
+        { property: 'og:title', content: '搜库 - 电视直播与 Alist 数据源聚合播放' },
+        { property: 'og:description', content: '搜库提供最新的电视直播和 Alist 数据源聚合播放，轻松享受精彩内容！' },
         { property: 'og:type', content: 'website' },
-        { property: 'og:url', content: "https://aipan.me/tv" }, // 动态获取当前页面的 URL
+        { property: 'og:url', content: "https://pan.soku.one/tv" }, // 动态获取当前页面的 URL
         { property: 'og:image', content: '/logo.png' }, // 替换为适当的缩略图链接
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: '爱盼 - 电视直播与 Alist 数据源聚合播放' },
-        { name: 'twitter:description', content: '爱盼提供最新的电视直播和 Alist 数据源聚合播放，轻松享受精彩内容！' },
+        { name: 'twitter:title', content: '搜库 - 电视直播与 Alist 数据源聚合播放' },
+        { name: 'twitter:description', content: '搜库提供最新的电视直播和 Alist 数据源聚合播放，轻松享受精彩内容！' },
         { name: 'twitter:image', content: '/logo.png' } // 替换为适当的 Twitter 卡片图像链接
     ]
 });
@@ -569,7 +569,7 @@ onBeforeUnmount(() => {
                                          bg-clip-text text-transparent hover:from-blue-500 hover:to-purple-600 
                                          transition-all duration-300
                                         transform hover:scale-105">
-                            AIPAN
+                            SOKU
                         </nuxt-link>
                     </div>
 

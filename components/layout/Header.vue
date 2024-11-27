@@ -44,7 +44,7 @@ const navItems = [
               alt="logo"
             >
             <h1 class="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent dark:from-blue-400 dark:to-purple-400">
-              爱盼-网盘资源搜索
+              搜库-聚合网盘搜索
             </h1>
           </div>
 

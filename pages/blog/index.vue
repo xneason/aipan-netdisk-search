@@ -74,7 +74,7 @@ onMounted(async () => {
         <div class="bg-gradient-to-r from-blue-500 to-purple-600 text-white p-6 text-center relative overflow-hidden">
             <div class="absolute inset-0 bg-black opacity-10"></div>
             <div class="relative z-10">
-                <h1 class="text-2xl font-bold mb-2">博客天地</h1>
+                <h1 class="text-2xl font-bold mb-2">谈天说地</h1>
                 <p class="text-sm opacity-90">时常发布一些妙趣横生的内容，欢迎各位朋友一同感受这里的独特魅力</p>
             </div>
         </div>

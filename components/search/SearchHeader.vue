@@ -16,7 +16,7 @@ const search = () => {
   emit('search', searchKeyword.value)
 }
 const goGithub = () => {
-  window.open('https://github.com/unilei/aipan-netdisk-search.git')
+  window.open('https://github.com/xneason/aipan-netdisk-search.git')
 }
 const colorMode = useColorMode()
 
@@ -32,7 +32,7 @@ console.log(colorMode.preference)
           <img class="w-[32px] h-[32px] md:w-[42px] md:h-[42px] cursor-pointer transform hover:rotate-12 transition-transform duration-300" 
             src="@/assets/my-logo.png" alt="logo" @click="goHome()">
           <h1 class="hidden md:block text-base font-bold cursor-pointer text-gray-700 dark:text-white hover:text-primary transition-colors" 
-            @click="goHome()">爱盼-网盘资源搜索</h1>
+            @click="goHome()">搜库-聚合网盘搜索</h1>
         </div>
         <div class="w-[240px] md:w-[420px]">
           <client-only>

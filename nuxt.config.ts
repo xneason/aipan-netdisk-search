@@ -21,7 +21,7 @@ export default defineNuxtConfig({
         // head
         pageTransition: { name: 'page', mode: 'out-in' },
         head: {
-            title: '爱盼：资源随心，娱乐无限',
+            title: '聚合网盘资源搜索_搜库:p.soku.one',
             link: [
                 { 
                     rel: 'stylesheet',
@@ -30,16 +30,16 @@ export default defineNuxtConfig({
                 { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
             ],
             meta: [
-                { name: 'keywords', content: '爱盼, 开源, 免费资源搜索, 网盘搜索, 音乐下载, TVBox数据接口, 电视直播, 博客发布, 影视资源, 教学工具, 非商业用途' },
-                { hid: 'description', name: 'description', content: '爱盼是一个开源免费的资源搜索平台，提供网盘资源搜索、音乐下载、TV直播、TVBox接口地址以及博客发布等多项功能，打造丰富的影视音聚合体验，供学习与探索使用，不支持商业用途。' },
+                { name: 'keywords', content: '搜库,开源网盘搜索,免费资源搜索,网盘搜索,音乐下载,TVBox数据接口,电视直播,博客发布,短剧资源,影视资源,教学工具,非商业用途' },
+                { hid: 'description', name: 'description', content: '搜库是一个开源的免费资源搜索平台，提供网盘资源搜索、影视资源搜索、音乐下载、TV直播、TVBox接口地址以及博客发布等多项功能，打造丰富的影视音聚合体验，供学习与探索使用，不支持商业用途。' },
                 { name: 'format-detection', content: 'telephone=no' },
-                { property: 'og:title', content: '爱盼：资源随心，音乐下载与影视聚合平台' },
-                { property: 'og:description', content: '爱盼是一个开源免费的资源搜索平台，提供网盘、音乐、影视等多种资源，一站式服务，供学习使用。' },
+                { property: 'og:title', content: '搜库：影视短剧搜索与音乐下载聚合平台，想搜就搜！' },
+                { property: 'og:description', content: '搜库是一个开源免费的资源搜索平台，提供网盘、音乐、影视等多种资源，一站式服务，供学习使用。' },
                 { property: 'og:image', content: 'https://aipan.me/logo.png' },
-                { property: 'og:url', content: 'https://aipan.me' },
+                { property: 'og:url', content: 'https://p.soku.one' },
                 { name: 'twitter:card', content: 'summary_large_image' },
-                { name: 'twitter:title', content: '爱盼：资源随心，音乐下载与影视聚合平台' },
-                { name: 'twitter:description', content: '免费开源的资源搜索平台，涵盖音乐、网盘、影视等内容，学习探索好去处！' },
+                { name: 'twitter:title', content: '搜库：影视短剧搜索与音乐下载聚合平台，想搜就搜！' },
+                { name: 'twitter:description', content: '搜库是一个免费开源的资源搜索平台，涵盖音乐、网盘、影视、短剧等内容，学习探索好去处！' },
                 { name: 'twitter:image', content: 'https://aipan.me/logo.png' },
                 { name: 'viewport', content: 'width=device-width, initial-scale=1' },
                 { name: 'referrer', content: 'no-referrer' },
@@ -167,9 +167,9 @@ export default defineNuxtConfig({
         ]
     },
     site: {
-        name: '爱盼 - 资源随心，娱乐无限',
-        url: 'https://www.aipan.me',
-        description: '爱盼 - 资源随心，娱乐无限， 一个开源免费的网盘资源搜索程序，仅供学习使用，不支持商业用途。'
+        name: '搜库 - 聚合网盘资源搜索',
+        url: 'https://p.soku.one',
+        description: '搜库：影视短剧资源搜索与音乐下载聚合平台，想搜就搜！仅供学习使用，不支持商业用途。'
     },
     compatibilityDate: '2024-09-12'
 })

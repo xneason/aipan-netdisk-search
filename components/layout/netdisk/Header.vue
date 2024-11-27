@@ -7,13 +7,16 @@ const colorMode = useColorMode()
         <div class="max-w-[1240px] mx-auto flex flex-row items-center justify-between px-[20px]">
             <div class="flex flex-row items-center gap-4">
                 <nuxt-link to="/blog" class="text-sm text-slate-600 dark:text-white">
-                    📚 我的博客
+                    📚 资讯
                 </nuxt-link>
                 <nuxt-link to="/tv" class="text-sm text-slate-600 dark:text-white ">
-                    📺 电视TV
+                    📺 TV
                 </nuxt-link>
                 <nuxt-link to="/tvbox" class="text-sm text-slate-600 dark:text-white ">
                     📺 TVbox接口
+                </nuxt-link>
+                <nuxt-link to="https://www.soku.one" target="_blank" class="text-sm text-slate-600 dark:text-white ">
+                    📺 影视
                 </nuxt-link>
             </div>
             <div class="flex flex-row items-center gap-4">

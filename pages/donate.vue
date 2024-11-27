@@ -10,11 +10,14 @@
     </p>
     <h1 class="mt-10 text-2xl font-bold text-center">💖 打赏方式：（微信/支付宝）</h1>
     <div class="mt-10 gap-10 flex flex-col justify-center items-center">
-      <img class="w-[300px] rounded-md bg-slate-500 p-4" src="@/assets/donation/wechat_pay.jpg" alt="微信">
-      <img class="w-[300px] rounded-md bg-slate-500 p-4" src="@/assets/donation/alipay.png" alt="支付宝">
+      <img class="w-[300px] rounded-md bg-slate-500 p-4" src="https://s.url.cn/music/photo_new/T053XD010032JzUI44GKiv.png" alt="微信">
+      <img class="w-[300px] rounded-md bg-slate-500 p-4" src="https://s.url.cn/music/photo_new/T053XD01002gbUma046R1L.png" alt="支付宝">
     </div>
     <p class="mt-4 text-center max-w-screen-md mx-auto">
-      感谢您与我同行，让我们一起创造更多美好的瞬间！您的支持是我不断前行的动力，期待与您分享更多精彩的作品！
+      如有任何问题请TG扫码联系上方二维码或：@bytent
+    </p>
+    <p class="mt-4 text-center max-w-screen-md mx-auto">
+      感谢您与我同行，让我们一起创造更多美好的瞬间！您的支持是我不断前行的动力！
     </p>
   </div>
 </template>
