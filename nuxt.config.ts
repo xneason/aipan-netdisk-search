@@ -21,7 +21,7 @@ export default defineNuxtConfig({
         // head
         pageTransition: { name: 'page', mode: 'out-in' },
         head: {
-            title: '聚合网盘资源搜索_搜库:p.soku.one',
+            title: '聚合网盘资源搜索_搜库:pan.soku.one',
             link: [
                 { 
                     rel: 'stylesheet',
@@ -35,12 +35,12 @@ export default defineNuxtConfig({
                 { name: 'format-detection', content: 'telephone=no' },
                 { property: 'og:title', content: '搜库：影视短剧搜索与音乐下载聚合平台，想搜就搜！' },
                 { property: 'og:description', content: '搜库是一个开源免费的资源搜索平台，提供网盘、音乐、影视等多种资源，一站式服务，供学习使用。' },
-                { property: 'og:image', content: 'https://aipan.me/logo.png' },
-                { property: 'og:url', content: 'https://p.soku.one' },
+                { property: 'og:image', content: 'https://pan.soku.one/logo.png' },
+                { property: 'og:url', content: 'https://pan.soku.one' },
                 { name: 'twitter:card', content: 'summary_large_image' },
                 { name: 'twitter:title', content: '搜库：影视短剧搜索与音乐下载聚合平台，想搜就搜！' },
                 { name: 'twitter:description', content: '搜库是一个免费开源的资源搜索平台，涵盖音乐、网盘、影视、短剧等内容，学习探索好去处！' },
-                { name: 'twitter:image', content: 'https://aipan.me/logo.png' },
+                { name: 'twitter:image', content: 'https://pan.soku.one/logo.png' },
                 { name: 'viewport', content: 'width=device-width, initial-scale=1' },
                 { name: 'referrer', content: 'no-referrer' },
                 { name: 'referrer', content: 'always' },
@@ -61,9 +61,7 @@ export default defineNuxtConfig({
                     src: 'https://challenges.cloudflare.com/turnstile/v0/api.js'
                 },
                 {
-                    src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8210373406341452',
-                    async: true,
-                    crossorigin: 'anonymous'
+                    src: '//js.users.51.la/21934251.js',
                 }
             ]
 
@@ -168,7 +166,7 @@ export default defineNuxtConfig({
     },
     site: {
         name: '搜库 - 聚合网盘资源搜索',
-        url: 'https://p.soku.one',
+        url: 'https://pan.soku.one',
         description: '搜库：影视短剧资源搜索与音乐下载聚合平台，想搜就搜！仅供学习使用，不支持商业用途。'
     },
     compatibilityDate: '2024-09-12'
